@@ -17,8 +17,6 @@
             </div>
             <div class="header-image">
                 <div id="portrait" class="img-header"></div>
-                <div class="img-square"></div>
-                <div class="img-line"></div>
             </div>
         </div>
     </header>

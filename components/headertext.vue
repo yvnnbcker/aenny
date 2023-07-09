@@ -17,8 +17,6 @@
             </div>
             <div class="header-image">
                 <img class="img-header" :src="header.img" :alt="header.alt"/>
-                <div class="img-square"></div>
-                <div class="img-line"></div>
             </div>
         </div>
     </header>

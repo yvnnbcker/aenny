@@ -1,42 +1,5 @@
 @import "./_base.scss";
 
-////////////////////////////////GLOBAL BASE////////////////////////////////
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: $black;
-    @include text;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: $white;
-  }
-  main {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .content {
-      width: 920px;
-      @media screen and (max-width: 1024px) and (min-width: 601px) {
-        width: 80%;
-      }
-      @media screen and (max-width: 600px) {
-        width: 90%;
-      }
-    }
-  }
-  .simple-layout{
-    a{
-      padding: 0;
-      margin: 0;
-    }
-  }
-
 //HEADER
 header {
   display: flex;
@@ -68,7 +31,7 @@ header {
           display: flex;
           flex-direction: column;
           .header-headline {
-              @include titlebold;
+              @include highlight;
               min-width: 380px;
           }
           .header-desc{
@@ -112,7 +75,7 @@ header {
               display: flex;
               align-items: center;
               justify-content: center;
-              background-color: $vibrantviolet;                
+              background-color: $red;                
               width: 380px;
               height: 360px;
               @media screen and (max-width: 1024px) and (min-width: 801px) {
@@ -155,7 +118,7 @@ header {
   }
 }
 #text-animated, #adjectives {
-  @include title;
+  @include highlight;
   height: 48px;
 }
 #text-animated:after {
@@ -195,319 +158,6 @@ header {
       height: 320px;
   }
 }
-@keyframes portrait {
-  0%, 19% { background-image: url('/yvonne-1.png');}
-  20%, 39% { background-image: url('/yvonne-2.png');}
-  40%, 59% { background-image: url('/yvonne-3.png');}
-  60%, 79% { background-image: url('/yvonne-4.png');}
-  80%, 100% { background-image: url('/yvonne-5.png');}
-}
-
-
-//BUTTONS
-.button-icon{
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  text-decoration: none;
-  width: fit-content;
-  .button-text{
-    margin: $xxs 0 $xxs $xs;
-    @include menu;
-    background-color: $vibrantviolet;
-    color: $white;
-    transition: background-color 0.1s ease-out;
-  }
-  .button-image{
-    background-color: $vibrantviolet;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    mask-size: contain;
-    background-size: 48px 48px;
-    width: 48px;
-    height: 48px;
-    transition: background-color 0.1s ease-out; 
-  }
-  #button-orange{
-    background-color: orange;
-  }
-  &:hover {     
-    .button-text{
-      background-color: $black;
-      color: $white;
-      transition: background-color 0.1s ease-out; 
-    }
-    .button-image{
-      background-color: $black;
-      cursor: pointer;
-      transition: background-color 0.1s ease-out; 
-    }
-  }
-}
-.buttonsmall-icon {
-  flex-direction: row;
-  .button-text{
-    margin: $xxs 0 $xxs $xxs;
-    @include sub;
-  }
-  .button-image{
-    background-color: $vibrantviolet;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    mask-size: contain;
-    background-size: 32px 32px;
-    width: 32px;
-    height: 32px;
-  }
-  .button-small{
-    margin: $xxs $xxs $xxs 0;
-  }
-}
-.icon-last {
-  flex-direction: row-reverse;
-}
-.button-small{
-  margin: $xxs $xxs $xxs 0;
-}
-
-.button-nav {
-  @include menu;
-  text-decoration: none;
-  margin: 0 $s;
-  height: 30px;
-  transition: background-color, color 0.1s ease-out; 
-  &:active{
-    background-color: $vibrantviolet;
-    color: $white;
-    transition: background-color, color 0.1s ease-out; 
-  }
-  @media screen and (max-width: 1024px) and (min-width: 601px) {
-    margin: 0 $xs;
-  }
-  @media screen and (max-width: 600px) {
-    margin: 0 $xs;
-  }
-}
-.button-inpage {
-  @include menu;
-  display: inline-flex;
-  align-self: center;
-  text-decoration: none;
-  padding: $nano $xxs;
-  border: 3px solid $black;
-  background-color: $white;
-}
-
-.button-footer{
-  margin: 0 $s;
-  .mail{
-    @include sub;
-    display: block;
-    @media screen and (max-width: 600px) {
-      display: none;
-    }
-    &:hover{
-      color: $white;
-    }
-  }
-  .mail-mobile{
-    @include sub;
-    display: none;
-    color: $vibrantviolet;
-    @media screen and (max-width: 600px) {
-      display: block;
-    }
-    &:hover{
-      color: $white;
-    }
-  }
-  @media screen and (max-width: 1024px) and (min-width: 601px) {
-    margin: 0 $xs;
-  }
-  @media screen and (max-width: 600px) {
-    margin: 0;
-  }
-}
-
-
-//NAV
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: $xxs 0;
-  width: 100vw;
-  position: relative;
-  align-self: center;
-  @media screen and (min-width: 1600px) {
-    width: 1920px;
-  }
-  .nav-left{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 $nano;
-    margin: 0 $xxs;
-    @media screen and (max-width: 600px) {
-      padding: 0;
-      margin: 0 $nano;
-     }
-    a{
-      padding: 0;
-      margin: 0;
-    }
-    #logo{
-      width: 48px;
-      height: 48px;
-      transition: transform .5s ease-in-out;
-      &:hover{
-        background-color: $black;
-        transform: rotate(180deg);
-        transition: transform .5s ease-in-out;
-      }
-    }
-    
-  }
-  .nav-right{
-    @media screen and (max-width: 600px) {
-      display: none;
-     }
-  }
-}
-
-
-//FOOTER
-footer{
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  #footer-slogan{
-    display: contents;
-    .footer-content{
-      display: flex;
-      flex-direction: column;
-      width: 920px;
-      height: 30vw;
-      justify-content: center;
-      align-self: center;
-        @media screen and (min-width: 1600px) {
-          height: 50vw;
-        }
-        @media screen and (max-width: 1024px) and (min-width: 601px) {
-            width: 80%;
-            height: 60vw;
-          }
-          @media screen and (max-width: 600px) {
-            width: 90%;
-            height: 100vw;
-          }
-        .slogan-right{
-            display: flex;
-            justify-content: flex-end;
-            @media screen and (max-width: 600px) {
-              justify-content: flex-start;
-            }
-        }
-    }
-  }
-  .footer-container{
-    width: 100vw;
-    p{
-      @media screen and (max-width: 600px) {
-        color: $vibrantviolet;
-      }
-      &:hover{
-        color: $white;
-      }
-    }
-    a{
-      @include sub;
-      @media screen and (max-width: 600px) {
-        color: $vibrantviolet;
-      }
-      &:hover{
-        color: $white;
-      }
-    }
-    @media screen and (min-width: 1600px) {
-      width: auto;
-    }
-    @media screen and (max-width: 600px) {
-      display: flex;
-      flex-direction: column;
-      align-self: center;
-    }
-    .footer-links{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: $xxs 0;
-        @media screen and (max-width: 600px) {
-          width: 90%;
-          display: flex;
-          flex-direction: column;
-          align-self: center;
-          padding: $m 0;
-        }
-        .footer-legal{
-          @media screen and (max-width: 600px) {
-            padding-bottom: $xs;
-            li{
-              display: flex;
-              flex-direction: row;
-              justify-content: space-between;
-            }
-          }
-        }
-        .footer-contact{
-          display: flex;
-          flex-direction: column;
-          @media screen and (max-width: 600px) {
-            padding-bottom: $xs;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .socialmedia{
-            display: flex;
-            flex-direction: row;
-            @media screen and (max-width: 600px) {
-              a{
-                margin-right: $s;
-              }
-            }
-            .trenner{
-              width: 1px;
-              height: 18px;
-              background-color: $black;
-              @media screen and (max-width: 600px) {
-                display: none;
-              }
-            }
-          }
-        }
-        .footer-about{
-          li{ 
-            align-items: flex-end;
-            @media screen and (max-width: 600px) {
-              align-items: flex-start;
-            }
-            .job{
-              @include sub;
-              margin: 0 $s;
-              padding: 0 $nano;
-              @media screen and (max-width: 600px) {
-                margin: 0;
-                padding: $nano;
-                color: $vibrantviolet;
-              }
-            }   
-          }
-        }
-    }
-  }
-}
 
 #adjectives:after {
   content:"";
@@ -531,12 +181,12 @@ footer{
 .slogan-text {
   display: flex;
   flex-direction: row;
-  @include title;
+  @include highlight;
   .slogan-highlight {
       display: flex;
       flex-direction: column;
       .highlight-text {
-          @include title;
+          @include highlight;
       }
       .highlight-line {
           width: 100%;

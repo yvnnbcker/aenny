@@ -5,9 +5,9 @@ export default defineNuxtConfig({
     Generate: { fallback: true },
    // modules: ['@nuxt/content'],
    meta: {
-        title: 'Yvonne Becker, Interaction Designerin',
+        title: 'änny',
         name: 'description',
-        content: 'My Interaction Design Portfolio – UI, UX, Web Development, Exhibition and Print Projects',
+        content: 'Lernspielmöbel',
         scrollPos: {
             x: 0,
             y: 0
@@ -16,33 +16,8 @@ export default defineNuxtConfig({
     link: [
         {
         rel: 'stylesheet',
-        href: 'https://use.typekit.net/jmp6nrg.css'
-        },
-        {
-        rel: 'preload',
-        as: 'image',
-        href: '/yvonne-1.png'
-        },
-        {
-        rel: 'preload',
-        as: 'image',
-        href: '/yvonne-2.png'
-        },
-        {
-        rel: 'preload',
-        as: 'image',
-        href: '/yvonne-3.png'
-        }, 
-        {
-        rel: 'preload',
-        as: 'image',
-        href: '/yvonne-4.png'
-        },
-        {
-        rel: 'preload',
-        as: 'image',
-        href: '/yvonne-5.png'
-        },  
+        href: 'https://use.typekit.net/mno8zad.css'
+        } 
     ],    
     css: [
         '~/assets/scss/main.scss'

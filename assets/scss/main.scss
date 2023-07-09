@@ -107,8 +107,8 @@
         }
     }
     #tools-container{
-        .tool-title{
-            @include title;
+        .tool-highlight{
+            @include highlight;
         }
         .logo-container{
             padding: 0 0 $nano 0;
@@ -315,7 +315,7 @@
         @media screen and (max-width: 600px) {
             padding: $xxs $xs;
         }
-        .project-subtitle{
+        .project-subhighlight{
             font-weight: 800;
         }
         .project-headline{

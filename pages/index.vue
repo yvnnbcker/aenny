@@ -8,6 +8,5 @@
             icon="arrow-right"
             button="get to know me"> 
         </Headerimage>
-        <Projects />
     </div>
 </template>

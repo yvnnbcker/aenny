@@ -1,13 +1,15 @@
 <template>
         <footer>
-            <div class="background">
-                <div class="footer-background-container">
-                    <img src="/blob1.png" class="blob7 blobs">
-                    <img src="/blob8.png" class="blob8 blobs">
-                    <img src="/blobend.png" class="blobend blobs">
+            <div class="footer-content">   
+                <div class="rechtliches">     
+                    <NuxtLink class="btn-global" to="/datenschutz">datenschutz</NuxtLink>  
+                    <NuxtLink class="btn-global" to="/impressum">impressum</NuxtLink>  
+                </div>    
+                <div class="some">
+                    <NuxtLink class="btn-global" to="">instagram</NuxtLink>  
+                    <NuxtLink class="btn-global" to="">linkedin</NuxtLink>                 
+                    <NuxtLink class="btn-global" to="">kontakt</NuxtLink> 
                 </div>
             </div>
-            <Footerslogan />  
-            <Footerlinks />
         </footer>
 </template>

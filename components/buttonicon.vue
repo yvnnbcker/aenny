@@ -1,11 +1,11 @@
 <script setup>
-    const button = defineProps(['icon', 'color', 'href']);
+    const btn = defineProps(['icon', 'color', 'href']);
 </script>
 
 <template>
-    <div class="button-icon">
-        <div :class="button.icon, button.color" class="button-image">
+    <div class="btn-icon">
+        <div :class="btn.icon, btn.color" class="btn-image">
         </div>
-        <a :href="button.href" class="button-text" :class="button.color"><slot /></a>      
+        <a :href="btn.href" class="btn-text" :class="btn.color"><slot /></a>      
     </div>
 </template>
