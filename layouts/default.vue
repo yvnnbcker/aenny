@@ -1,14 +1,12 @@
 <template>
-    <div>
-        <main>
-            <!--<Background />-->
-            <Navigation />            
+    <Navigation />  
+    <Hero/>  
+    <main>
             <div class="content">                
                 <slot />    
             </div>  
-            <Footer />
-        </main>
-    </div>
+    </main>
+    <Footer />
 </template>
 
 <style>

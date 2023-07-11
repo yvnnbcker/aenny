@@ -1,0 +1,22 @@
+<template>
+    <div class="grid3">
+        <cardDot
+        img="/roundacorner-preview.png"
+        alt=""
+        title="title"
+        desc="desc"
+        bg="mint"/>
+        <cardDot
+        img="/roundacorner-preview.png"
+        alt=""
+        title="title"
+        desc="desc"
+        bg="rose"/>
+        <cardDot
+        img="/roundacorner-preview.png"
+        alt=""
+        title="title"
+        desc="desc"
+        bg="babyblue"/>
+    </div>
+</template>

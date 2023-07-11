@@ -1,12 +1,10 @@
 <template>
     <div>
-        <Headerimage headline="Hey there," 
-            desc="Happy to have you here on my portfolio! 
-            I am new interaction designer and recently graduated from University of Applied Science in Schwäbisch Gmünd in Germany. 
-            Enjoy watching my selected projects and learn more about myself." 
-            href="/about"
-            icon="arrow-right"
-            button="get to know me"> 
-        </Headerimage>
+        <Three />
+        <Quote>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel mollis quam. Quisque dictum volutpat rhoncus. Donec rhoncus est vel ex interdum posuere. Praesent efficitur nulla ac diam tempor consectetur."
+        </Quote>
+        <Circle />
+        <Timeline/>
     </div>
 </template>

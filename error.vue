@@ -1,6 +1,5 @@
 <template>
   <main>
-    <BackgroundSmall />
     <div id="error-container">
       <div class="error-message">
         Ooops, seems like an error occurred.
@@ -8,9 +7,9 @@
       <div class="error-code">      
         <b>{{ error.statusCode }}</b> – {{ error.message }}
       </div>
-      <Buttonicon href="/" icon="arrow-left">
+      <ButtonIcon href="/" icon="arrow-left">
             go back to main page
-      </Buttonicon>
+      </ButtonIcon>
     </div>    
     <Footer />
   </main>

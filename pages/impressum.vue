@@ -1,5 +1,6 @@
 <template>
     <div class="legal">
+      <div class="legal-content">
         <div class="privacy-policy">
             <h1>Privacy Policy</h1>
             <br ><br ><h2>Preamble</h2>
@@ -30,6 +31,7 @@
                     <br >For more information on Adobe Typekit Web Fonts, please visit <a href="https://typekit.com">https://typekit.com</a> and see Adobe's privacy policy: <a href="https://www.adobe.com/privacy/policy.html">https://www.adobe.com/privacy/policy.html</a>.
             <br ><br ><br ><br ><br ><br >
         </div>
+      </div> 
     </div>
 </template>
 

@@ -1,6 +1,9 @@
 <template>
         <footer>
-            <div class="footer-content">   
+            <div class="footer-content">
+                <h1>ännything is possible!</h1>
+            </div>
+            <div class="footer-links">   
                 <div class="rechtliches">     
                     <NuxtLink class="btn-global" to="/datenschutz">datenschutz</NuxtLink>  
                     <NuxtLink class="btn-global" to="/impressum">impressum</NuxtLink>  

@@ -1,0 +1,31 @@
+<template>
+    <div class="circle">
+        <ul class="circle-container">
+                <contentDot
+                img="/roundacorner-preview.png"
+                alt=""
+                title="title"
+                desc="desc"/>
+                <contentDot
+                img="/roundacorner-preview.png"
+                alt=""
+                title="title"
+                desc="desc"/>
+                <contentDot
+                img="/roundacorner-preview.png"
+                alt=""
+                title="title"
+                desc="desc"/>
+                <contentDot
+                img="/roundacorner-preview.png"
+                alt=""
+                title="title"
+                desc="desc"/>
+                <contentDot
+                img="/roundacorner-preview.png"
+                alt=""
+                title="title"
+                desc="desc"/>
+        </ul>
+    </div>
+</template>
