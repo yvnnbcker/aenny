@@ -2,14 +2,14 @@
     <div class="timeline">
         <div class="timeline-left">
             <TimelineDot
-            img="/roundacorner-preview.png"
+            img="/ph-eckig.png"
             alt=""
             title="title"
             desc="desc"
             bg="red"
             class="firstdot"/>
             <TimelineDot
-            img="/roundacorner-preview.png"
+            img="/ph-eckig.png"
             alt=""
             title="title"
             desc="desc"
@@ -18,13 +18,13 @@
         <div class="line"></div>
         <div class="timeline-right">
             <TimelineDot
-            img="/roundacorner-preview.png"
+            img="/ph-eckig.png"
             alt=""
             title="title"
             desc="desc"
             bg="babyblue"/>
             <TimelineDot
-            img="/roundacorner-preview.png"
+            img="/ph-eckig.png"
             alt=""
             title="title"
             desc="desc"
