@@ -98,13 +98,16 @@ a {
       transition: color 0.1s ease-out; 
   }
 }
-p {
+p, b {
   @include text;
 }
 li {
   display: flex;
   flex-direction: column;
   list-style: none;
+}
+b {
+  font-weight: 600;
 }
 
 
@@ -193,12 +196,16 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  padding: 2% 0;
   .nav-content {
+    z-index: 1002;
+    position: fixed;
+    background-color: $white;
+    padding: 2%;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 96%;
+    width: 100%;
   }
 }
 
