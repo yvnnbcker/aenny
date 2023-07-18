@@ -15,7 +15,11 @@
             desc="desc"
             bg="mint"/>
         </div>
-        <div class="line"></div>
+        <div class="divider">
+            <div class="circle firstcircle"></div>
+            <div class="line"></div>
+            <div class="circle lastcircle"></div>
+        </div>
         <div class="timeline-right">
             <TimelineDot
             img="/ph-eckig.png"
