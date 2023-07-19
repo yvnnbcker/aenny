@@ -2,17 +2,17 @@
     <div class="timeline">
         <div class="timeline-left">
             <TimelineDot
-            img="/ph-eckig.png"
+            img="/magazin-yolo.jpg"
             alt=""
-            title="title"
-            desc="desc"
+            title="2023"
+            desc="Wir gehen viral"
             bg="red"
             class="firstdot"/>
             <TimelineDot
-            img="/ph-eckig.png"
+            img="/testing.png"
             alt=""
-            title="title"
-            desc="desc"
+            title="2021"
+            desc="erste Testings"
             bg="mint"/>
         </div>
         <div class="divider">
@@ -22,16 +22,16 @@
         </div>
         <div class="timeline-right">
             <TimelineDot
-            img="/ph-eckig.png"
+            img="/produktion.jpeg"
             alt=""
-            title="title"
-            desc="desc"
+            title="2022"
+            desc="Produktionsfirmen"
             bg="babyblue"/>
             <TimelineDot
-            img="/ph-eckig.png"
+            img="/geburtsstunde.jpg"
             alt=""
-            title="title"
-            desc="desc"
+            title="2020"
+            desc="Geburtsstunde"
             bg="rose"/>
         </div>
     </div>

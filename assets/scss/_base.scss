@@ -173,6 +173,9 @@ b {
   color: $black;
   @include text;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: flex;
   flex-direction: column;

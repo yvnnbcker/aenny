@@ -2,14 +2,13 @@
     <nav>
         <div class="nav-content">
             <div class="nav-left">
-                <NuxtLink class="logo btn-global btn-nav" to="/">logo</NuxtLink>
+                <a class="logo btn-global btn-nav" href="#start">logo</a>
             </div>
             <div class="nav-right">        
-                <NuxtLink class="btn-global btn-nav" to="#">eins</NuxtLink>
-                <NuxtLink class="btn-global btn-nav" to="#">zwei</NuxtLink>
-                <NuxtLink class="btn-global btn-nav" to="#">drei</NuxtLink>
-                <NuxtLink class="btn-global btn-nav" to="#">gelbes ei</NuxtLink>
-                <NuxtLink class="btn-global btn-nav" to="">kontakt</NuxtLink>
+                <a class="btn-global btn-nav" href="#problems">Vision</a>
+                <a class="btn-global btn-nav" href="#team">Team</a>
+                <a class="btn-global btn-nav" href="#history">Geschichte</a>
+                <a class="btn-global btn-nav" href="#contact">Kontakt</a>
             </div>
         </div>
     </nav>

@@ -1,30 +1,30 @@
 <template>
     <div>
-        <div class="section goals">
+        <div id="problems" class="section">
             <Section 
-            title="Ziele"
+            title="Probleme"
             sub=""
             desc="" />
             <Three />
         </div>
-        <Quote>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel mollis quam. Quisque dictum volutpat rhoncus. Donec rhoncus est vel ex interdum posuere. Praesent efficitur nulla ac diam tempor consectetur."
-        </Quote>
-        <div class="section special">
+        <Quote 
+        bg="red"
+        text="ännything is possible. ännyone, ännywhere, ännytime."/>
+        <div id="special" class="section">
             <Section 
             title="Innovation"
             sub=""
             desc="" />
-            <Circle />
+            <Three />
         </div>
-        <div class="section team">
+        <div id="team" class="section bgsection babyblue">
             <Section 
             title="Team"
             sub=""
             desc="" />
             <Team />
         </div>
-        <div class="section history">
+        <div id="history" class="section">
             <Section 
             title="Geschichte"
             sub=""

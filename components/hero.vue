@@ -1,12 +1,12 @@
 <template>
-    <header>
+    <header id="start">
         <div class="full-img">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>welcome to ännyverse!</h1>
+                    <h1>Willkommen bei änny,</h1>
                     <div class="text-box">
-                        <h3>we are ännything you want</h3>
-                        <p>lorem ipsum.</p>
+                        <h3>dem modularen Lernspielmöbel.</h3>
+                        <p>Lernen+Spielen+Möbel</p>
                     </div>
                 </div>
             </div>

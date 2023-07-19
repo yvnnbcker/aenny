@@ -1,21 +1,21 @@
 <template>
     <div class="grid3">
         <cardDot
-        img="/ph-rund.png"
+        img="/muell.jpg"
         alt=""
-        title="title"
+        title="Umweltverschmutzung"
         desc="desc"
         bg="mint"/>
         <cardDot
-        img="/ph-rund.png"
+        img="/kind.jpeg"
         alt=""
-        title="title"
+        title="Reizüberflutung"
         desc="desc"
         bg="rose"/>
         <cardDot
-        img="/ph-rund.png"
+        img="/eltern.jpeg"
         alt=""
-        title="title"
+        title="überforderte Eltern"
         desc="desc"
         bg="babyblue"/>
     </div>
