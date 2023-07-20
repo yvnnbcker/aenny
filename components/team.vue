@@ -1,5 +1,5 @@
 <template>
-    <div class="grid3">
+    <div class="team-content">
         <cardUrl
         url="https://www.linkedin.com/in/alinagaidies"
         img="/alina.jpg"

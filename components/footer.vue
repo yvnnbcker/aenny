@@ -1,7 +1,12 @@
 <template>
-        <footer class="red">
+        <footer>
             <div id="contact" class="footer-content">
-                <h1>ännything is possible!</h1>
+                <h1 class="slogan">ännything is<br> possible!</h1>
+                <h5 class="footer-text">Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus placerat bibendum leo. Maecenas nec bibendum elit, at convallis sem.</h5>
+                <ButtonIcon
+                icon="smiley"
+                href="mail@mail.com"
+                >Schreib uns!</ButtonIcon>
             </div>
             <div class="footer-links">   
                 <div class="rechtliches">     

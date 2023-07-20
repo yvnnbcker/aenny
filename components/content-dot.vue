@@ -9,7 +9,7 @@
             <img :src="content.img" :alt="content.alt"/>
         </div>
         <div class="content-text">
-            <h3>{{ content.title }}</h3>
+            <h4>{{ content.title }}</h4>
             <p>{{ content.desc }}</p>
         </div>
     </div>

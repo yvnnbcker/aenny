@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     Generate: { fallback: true },
    // modules: ['@nuxt/content'],
    meta: {
-        title: 'änny',
+        title: 'änny - Das Lernspielmöbel',
         name: 'description',
         content: 'Lernspielmöbel',
         scrollPos: {
@@ -26,6 +26,11 @@ export default defineNuxtConfig({
         color: function(hex){
             console.log(hex)
         }
-    }
+     },
+     script: [
+        {
+          src: "assets/js/nav.js",
+          body: true
+        },],
 });
 

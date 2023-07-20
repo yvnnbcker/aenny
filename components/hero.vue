@@ -3,12 +3,11 @@
         <div class="full-img">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Willkommen bei änny,</h1>
-                    <div class="text-box">
-                        <h3>dem modularen Lernspielmöbel.</h3>
-                        <p>Lernen+Spielen+Möbel</p>
-                    </div>
+                    <h1 class="hero-title">Willkommen <br> bei änny!</h1>
+                    <h5>Deinem Lern-Spiel-Möbel, <br> das mitwächst.</h5>
                 </div>
+                <div class="ha-arrow"><img src="/scribble-arrow.svg"></div>
+                <div class="ha-dot"><img src="/scribble-dot.svg"></div>
             </div>
         </div>
     </header>

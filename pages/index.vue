@@ -1,34 +1,32 @@
 <template>
-    <div>
+    <div class="content">
         <div id="problems" class="section">
             <Section 
             title="Probleme"
-            sub=""
-            desc="" />
-            <Three />
+            text="Eltern, Kinder und die Umwelt stehen vor verschiedenen Herausforderungen im Zusammenhang mit Spielsachen. Hier sind die Hauptprobleme …" />
+            <Gallery />
         </div>
         <Quote 
         bg="red"
-        text="ännything is possible. ännyone, ännywhere, ännytime."/>
+        text="Unser Lernspiel-Möbelstück vereint spielerisches Lernen, nachhaltige Materialien und eine intuitive bla Gestaltung, um Kinder zu begeistern."/>
         <div id="special" class="section">
             <Section 
             title="Innovation"
             sub=""
-            desc="" />
-            <Three />
+            text="" />
         </div>
-        <div id="team" class="section bgsection babyblue">
+        <div id="team" class="section">
             <Section 
             title="Team"
             sub=""
-            desc="" />
+            text="" />
             <Team />
         </div>
         <div id="history" class="section">
             <Section 
             title="Geschichte"
             sub=""
-            desc="" />
+            text="" />
             <Timeline/>
         </div>
     </div>

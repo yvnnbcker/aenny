@@ -1,38 +1,40 @@
 <template>
     <div class="timeline">
-        <div class="timeline-left">
-            <TimelineDot
-            img="/magazin-yolo.jpg"
-            alt=""
-            title="2023"
-            desc="Wir gehen viral"
-            bg="red"
-            class="firstdot"/>
-            <TimelineDot
-            img="/testing.png"
-            alt=""
-            title="2021"
-            desc="erste Testings"
-            bg="mint"/>
-        </div>
-        <div class="divider">
-            <div class="circle firstcircle"></div>
-            <div class="line"></div>
-            <div class="circle lastcircle"></div>
-        </div>
-        <div class="timeline-right">
-            <TimelineDot
-            img="/produktion.jpeg"
-            alt=""
-            title="2022"
-            desc="Produktionsfirmen"
-            bg="babyblue"/>
-            <TimelineDot
-            img="/geburtsstunde.jpg"
-            alt=""
-            title="2020"
-            desc="Geburtsstunde"
-            bg="rose"/>
+        <div class="timeline-content">
+            <div class="first-column">
+                <TimelineDot
+                img="/magazin-yolo.jpg"
+                alt=""
+                year="2023"
+                title="änny viral"
+                desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
+                bg="red"
+                order="timeline-img-first"/>
+                <TimelineDot
+                img="/testing.png"
+                alt=""
+                year="2021"
+                title="Testings"
+                desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
+                bg="mint"
+                order="timeline-img-first"/>
+            </div>
+            <div class="second-column">
+                <TimelineDot
+                img="/produktion.jpeg"
+                alt=""
+                year="2022" 
+                title="Produktions-firmen"
+                desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
+                bg="babyblue"/>
+                <TimelineDot
+                img="/geburtsstunde.jpg"
+                alt=""
+                year="2020"
+                title="Geburtsstunde"
+                desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus"
+                bg="rose"/>
+            </div>
         </div>
     </div>
 </template>

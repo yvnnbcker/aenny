@@ -2,9 +2,7 @@
     <Navigation />  
     <Hero/>  
     <main>
-            <div class="content">                
                 <slot />    
-            </div>  
     </main>
     <Footer />
 </template>
