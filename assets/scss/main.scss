@@ -37,7 +37,7 @@ header{
 }
 
 
-////Section
+////00Section
 .section {
     padding: 120px 0;
     display: flex;
@@ -49,68 +49,11 @@ header{
         padding-bottom: 16px;
     }
     .section-text {
-        max-width: 600px;
+        max-width: 400px;
     }
 }
 
-////Timeline
-.timeline-dot {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 32%;
-    .timeline-img {
-        img {
-            width: 320px;
-        }
-    }
-    .timeline-text {
-        position: relative;
-        width: 280px;
-        height: fit-content;
-        margin-top: 18%;
-        padding: 32px;
-        left: 10%;
-        border-radius: 24px;
-        h3, h4, p{
-            color: $white;
-        }
-    }
-}
-.timeline-img-first {
-    flex-direction: row;
-    .timeline-text {
-        left: -10%;
-    }
-}
-.timeline {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background: no-repeat url('/line.svg');
-    background-size: 48%;
-    height: 80vw;
-    width: 100vw;
-    .timeline-content {
-        display: flex;
-        flex-direction: row;
-        .first-column {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            position: relative;
-        }
-        .second-column {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 64px;
-        }
-    }
-}
-
-
-////Gallery
+////01Gallery
 .gallery {
     display: flex;
     flex-direction: column;
@@ -147,45 +90,8 @@ header{
     }
 }
 
-
-////Team
-.team-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 48px;
-    padding-top: 64px;
-}
-///Card
-.card-url {
-    width: 320px;
-    padding: 32px;
-    border-radius: 24px;
-    background-color: $white;
-    box-shadow: 0 1px 2px rgba(10,11,34,0.03), 
-                0 2px 4px rgba(10,11,34,0.03), 
-                0 4px 8px rgba(10,11,34,0.03), 
-                0 8px 16px rgba(10,11,34,0.03),
-                0 16px 32px rgba(10,11,34,0.03), 
-                0 32px 64px rgba(10,11,34,0.03);
-    transition: box-shadow 0.25s;
-        img {
-            width: 100%;
-            padding-bottom: 8px;
-        }
-    &:hover {
-        box-shadow: 0 1px 2px rgba(10,11,34,0.06), 
-                    0 2px 4px rgba(10,11,34,0.06), 
-                    0 4px 8px rgba(10,11,34,0.06), 
-                    0 8px 16px rgba(10,11,34,0.06),
-                    0 16px 32px rgba(10,11,34,0.06), 
-                    0 32px 64px rgba(10,11,34,0.06);
-                    transition: box-shadow 0.25s;
-
-    }
-}
-
-  .quote {
+////02Quote
+.quote {
     display: flex;
     position: relative;
     .quote-quote {
@@ -212,7 +118,156 @@ header{
     right: 48px;
   }
 
-////Circle
+////03Special
+#special {
+    position: relative;
+    .special-image {
+        z-index: 1004;
+        padding-top: 64px;
+        align-self: center;
+        margin-top: 64px;
+        padding: 64px;
+        border-radius: 48px;
+        background-color: $white;
+    }
+}
+
+
+////04Team
+.team {
+    padding-top: 64px;
+    position: relative;
+    .team-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 48px;
+        position: relative;
+        z-index: 1002;
+    }
+}
+.team-section {
+    width: 400px;
+    position: relative;
+}
+///Card
+.card-url {
+    width: 320px;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: $white;
+    box-shadow: 0 1px 2px rgba(10,11,34,0.03), 
+                0 2px 4px rgba(10,11,34,0.03), 
+                0 4px 8px rgba(10,11,34,0.03), 
+                0 8px 16px rgba(10,11,34,0.03),
+                0 16px 32px rgba(10,11,34,0.03), 
+                0 32px 64px rgba(10,11,34,0.03);
+    transition: box-shadow 0.25s;
+        img {
+            width: 100%;
+            padding-bottom: 16px;
+        }
+    &:hover {
+        box-shadow: 0 1px 2px rgba(10,11,34,0.08), 
+                    0 2px 4px rgba(10,11,34,0.08), 
+                    0 4px 8px rgba(10,11,34,0.08), 
+                    0 8px 16px rgba(10,11,34,0.08),
+                    0 16px 32px rgba(10,11,34,0.08), 
+                    0 32px 64px rgba(10,11,34,0.08);
+                    transition: box-shadow 0.25s;
+
+    }
+}
+
+  ////04Timeline
+.timeline-dot {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 32%;
+    .timeline-img {
+        img {
+            width: 320px;
+        }
+    }
+    .timeline-text {
+        position: relative;
+        width: 280px;
+        height: fit-content;
+        margin-top: 18%;
+        padding: 32px;
+        left: 10%;
+        border-radius: 24px;
+        h3, h4, p{
+            color: $white;
+        }
+    }
+}
+.timeline-img-first {
+    flex-direction: row;
+    .timeline-text {
+        left: -10%;
+    }
+}
+
+///History
+.timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: no-repeat url('/line.svg');
+    background-size: 48%;
+    height: 80vw;
+    width: 100vw;
+    position: relative;
+    top: -40%;
+    .timeline-content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        .dot1 {
+            position: absolute;
+            top: -32%;
+        }
+        .dot2 {
+            top: 64%;
+        }
+        .dot3 {
+            position: absolute;
+            top: 20%;
+        }
+    }
+}
+.timeline-section, .special-section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 80px;
+}
+
+
+//PAGES
+////Legal
+.legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 160px 0 180px 0;
+    .legal-content {
+        width: 64%;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        padding: 180px 0;
+      }
+    @media screen and (max-width: 600px) {
+        padding: 180px 0;
+    }
+}
+
+
+
+////NOT used
+/// ////Circle
 @mixin on-circle($item-count, $circle-size, $item-size) {
     position: relative;
     width:  $circle-size;
@@ -262,23 +317,3 @@ header{
         }
     }
   }
-
-
-
-//PAGES
-////Legal
-.legal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 160px 0 180px 0;
-    .legal-content {
-        width: 64%;
-    }
-    @media screen and (max-width: 1024px) and (min-width: 601px) {
-        padding: 180px 0;
-      }
-    @media screen and (max-width: 600px) {
-        padding: 180px 0;
-    }
-}

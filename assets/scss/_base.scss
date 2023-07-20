@@ -264,7 +264,7 @@ footer{
   background-size: 100%;
   height: 700px;
   width: 100%;
-    .footer-content{
+    .footer-content {
       display: flex;
       flex-direction: column;
       padding: 120px 0;
@@ -274,7 +274,7 @@ footer{
         padding: 24px 0 32px 0;
       }
     }
-    .footer-links{
+    .footer-links {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -285,7 +285,7 @@ footer{
 
 
 //ERROR
-#error-container{
+#error-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -300,13 +300,13 @@ footer{
     height: 200vw;
     width: 90%;
   }
-  .error-message{
+  .error-message {
     @include highlight;
     font-size: 6rem;
     text-align: center;
     padding-bottom: 24px;
   }
-  .error-code{
+  .error-code {
     padding-bottom: 64px;
   }
 }
@@ -316,9 +316,6 @@ footer{
 .rect-left {
   z-index: 999;
   position: absolute;
-  width: 400px;
-  height: 600px;
-  left: 0;
 }
 .rect-right {
   z-index: 999;
@@ -327,13 +324,30 @@ footer{
   height: 600px;
   right: 0;
 }
-
+.rect1 {
+  z-index: 999;
+  width: 400px;
+  height: 600px;
+  left: 0;
+}
 .rect2 {
   z-index: 999;
   top: 6%;
   right: -18%;
 }
-
+.rect3 {
+  z-index: 999;
+  height: 840px;
+  top: -56%;
+  right: -18%;
+}
+.rect4 {
+  z-index: 999;
+  height: 820px;
+  width: 680px;
+  top: 8%;
+  left: -24%;
+}
 
 .scribble-fg {
   z-index: 1003;
@@ -349,7 +363,20 @@ footer{
   top: 240%;
   transform: rotate(24deg);
 }
-
 .scribble2 {
-
+  z-index: 1002;
+  position: absolute;
+  left: -12%;
+  top: -16%;
+}
+.scribble3 {
+  position: absolute;
+  z-index: 1001;
+  right: -12%;
+  top: -120%;
+}
+.scribble4 {
+  position: absolute;
+  left: -12%;
+  top: -32%;
 }

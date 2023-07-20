@@ -1,8 +1,10 @@
 <template>
     <div class="timeline">
+        <div class="scribble scribble4"><img src="/scribble-dot3.svg"></div>
         <div class="timeline-content">
             <div class="first-column">
                 <TimelineDot
+                class="dot1"
                 img="/magazin-yolo.jpg"
                 alt=""
                 year="2023"
@@ -11,6 +13,7 @@
                 bg="red"
                 order="timeline-img-first"/>
                 <TimelineDot
+                class="dot2"
                 img="/testing.png"
                 alt=""
                 year="2021"
@@ -21,6 +24,7 @@
             </div>
             <div class="second-column">
                 <TimelineDot
+                class="dot3"
                 img="/produktion.jpeg"
                 alt=""
                 year="2022" 
@@ -28,6 +32,7 @@
                 desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
                 bg="babyblue"/>
                 <TimelineDot
+                class="dot4"
                 img="/geburtsstunde.jpg"
                 alt=""
                 year="2020"
