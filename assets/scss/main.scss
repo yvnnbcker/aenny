@@ -4,7 +4,11 @@
 ////Header
 header{
     position: relative;
-    .full-img {
+    .hero-mobile {
+        display: none;
+    }
+    .hero-desktop {
+        display: block;
         background: no-repeat url('/0-hero-189.png');
         background-size: 100%;
         height: 56vw;
@@ -30,7 +34,7 @@ header{
                 @media screen and (min-width: 1800px) {
                     top: -18vw;
                     left: 16vw;
-                  }
+                }
             }
             .ha-dot {
                 position: absolute;
@@ -38,6 +42,51 @@ header{
                 right: -22vw;
                 z-index: 1001;
             }
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .hero-mobile {
+            display: block;
+            background: no-repeat url('/0-hero-mobile.jpg');
+            background-size: 100%;
+            height: 860px;
+            width: 100vw;
+            position: relative;
+            .hero-content {
+                padding: 120px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                .hero-text {
+                    width: 80%;
+                    .hero-title {
+                        color: $red;
+                        padding-bottom: 16px;
+                    }
+                }
+                .ha-arrow {
+                    position: absolute;
+                    top: -40vw;
+                    left: 26vw;
+                    z-index: 1001;
+                    img { 
+                        width: 140%;
+                    }
+                }
+                .ha-dot {
+                    position: absolute;
+                    top: 80vw;
+                    right: -96vw;
+                    z-index: 1001;
+                    img {
+                        width: 64%;
+                    }
+                }
+            }
+        }
+        .hero-desktop {
+            display: none;
         }
     }
 }
@@ -49,9 +98,13 @@ header{
     display: flex;
     flex-direction: column;
     position: relative;
+    @media screen and (max-width: 600px) {
+        padding: 80px 0;
+      }
 }
 
 .section-content {
+    z-index: 1002;
     .section-title {
         padding-bottom: 16px;
     }
@@ -65,6 +118,9 @@ header{
     display: flex;
     flex-direction: column;
     padding-top: 80px;
+    @media screen and (max-width: 600px) {
+        padding-top: 48px;
+      }
 }
 ///Text-Image
 .gallery-dot {
@@ -83,17 +139,27 @@ header{
     .gallery-content {
         width: 480px;
         h3 {
-            padding: 32px 0 16px 0;
+            padding: 16px 0;
             color: $red;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        flex-direction: column;  
+        padding: 48px 0;
+        .gallery-img {
+            width: 100%;
         }
     }
 }
 .img-first {
     flex-direction: row-reverse;
     z-index: 1005;
+    @media screen and (max-width: 600px) {
+        flex-direction: column;  
+    }
     .gallery-content {
         h3 {
-            padding: 64px 0 16px 0;
+            padding: 16px 0;
         }
     }
 }
@@ -109,12 +175,22 @@ header{
             max-width: 860px;
             padding: 120px;
             border-radius: 48px;
+            @media screen and (max-width: 600px) {
+                width: 100%;
+                padding: 48px;
+                border-radius: 32px;
+              }
         }
     }
 }
   .scribble-quote {
     z-index: 1003;
     position: relative;
+    @media screen and (max-width: 600px) {
+        img {
+            width: 20%;
+        }
+      }
   }
   .quote-start {
     top: 48px;
@@ -139,6 +215,14 @@ header{
         img {
             max-width: 800px;
         }
+        @media screen and (max-width: 600px) {
+            width: 100%;
+            padding: 48px;
+            border-radius: 32px;
+            img {
+                width: 100%;
+            }
+          }
     }
 }
 
@@ -155,6 +239,13 @@ header{
         position: relative;
         z-index: 1002;
     }
+    @media screen and (max-width: 600px) {
+        padding-top: 48px;
+        .team-content {
+            flex-direction: column;
+            row-gap: 48px;
+        }
+      }
 }
 .team-section {
     z-index: 1003;
@@ -166,6 +257,9 @@ header{
     padding: 32px;
     border-radius: 24px;
     background-color: $white;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+      }
     box-shadow: 0 1px 2px rgba(10,11,34,0.03), 
                 0 2px 4px rgba(10,11,34,0.03), 
                 0 4px 8px rgba(10,11,34,0.03), 
@@ -211,6 +305,18 @@ header{
             color: $white;
         }
     }
+    @media screen and (max-width: 600px) {
+        padding-top: 0;
+        .timeline-img {
+            img {
+                width: 216px;
+            }
+        }
+        .timeline-text {
+            width: 220px;
+            padding: 24px;
+        }
+    }
 }
 .timeline-img-first {
     flex-direction: row;
@@ -230,15 +336,28 @@ header{
     @media screen and (min-width: 1800px) {
         height: 64vw;
     }
+    @media screen and (max-width: 600px) {
+        height: 360vw;
+      }
     .timeline-bg {
         position: absolute;
         top: -12vw;
+        @media screen and (max-width: 600px) {
+            top: 20vw;
+            img {
+                width: 180%;
+            }
+        }
     }
     .dot1 {
         position: absolute;
         top: -36vw;
         @media screen and (min-width: 1800px) {
             top: -44vw;
+        }
+        @media screen and (max-width: 600px) {
+            top: 16vw;
+            left: -10vw;
         }
     }
     .dot2 {
@@ -249,6 +368,10 @@ header{
             top: -20vw;
             right: 32vw;
         }
+        @media screen and (max-width: 600px) {
+            top: 104vw;
+            right: 0;
+        }
     }
     .dot3 {
         position: absolute;
@@ -256,6 +379,10 @@ header{
         left: -4vw;
         @media screen and (min-width: 1800px) {
             top: -2vw;
+        }
+        @media screen and (max-width: 600px) {
+            top: 200vw;
+            left: -10vw;
         }
     }
     .dot4 {
@@ -265,6 +392,10 @@ header{
         @media screen and (min-width: 1800px) {
             top: 16vw;
             right: 36vw;
+        }
+        @media screen and (max-width: 600px) {
+            right: 0;
+            top: 288vw;
         }
     }
 }
@@ -276,6 +407,10 @@ header{
     margin-right: 80px;
     z-index: 1003;
     position: relative;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        margin-right: 0;
+      }
 }
 
 
