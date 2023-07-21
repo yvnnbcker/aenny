@@ -221,29 +221,50 @@ header{
 
 ///History
 .timeline {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: no-repeat url('/line.svg');
-    background-size: 48%;
-    height: 80vw;
+    height: 88vw;
     width: 100vw;
-    position: relative;
-    top: -40%;
-    .timeline-content {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        .dot1 {
-            position: absolute;
-            top: -32%;
+    @media screen and (min-width: 1800px) {
+        height: 64vw;
+    }
+    .timeline-bg {
+        position: absolute;
+        top: -12vw;
+    }
+    .dot1 {
+        position: absolute;
+        top: -36vw;
+        @media screen and (min-width: 1800px) {
+            top: -44vw;
         }
-        .dot2 {
-            top: 64%;
+    }
+    .dot2 {
+        position: absolute;
+        top: -12vw;
+        right: 16vw;
+        @media screen and (min-width: 1800px) {
+            top: -20vw;
+            right: 32vw;
         }
-        .dot3 {
-            position: absolute;
-            top: 20%;
+    }
+    .dot3 {
+        position: absolute;
+        top: 2vw;
+        left: -4vw;
+        @media screen and (min-width: 1800px) {
+            top: -2vw;
+        }
+    }
+    .dot4 {
+        position: absolute;
+        top: 28vw;
+        right: 20vw;
+        @media screen and (min-width: 1800px) {
+            top: 16vw;
+            right: 36vw;
         }
     }
 }
@@ -254,6 +275,7 @@ header{
     align-self: flex-end;
     margin-right: 80px;
     z-index: 1003;
+    position: relative;
 }
 
 
