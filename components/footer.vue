@@ -6,7 +6,7 @@
                 <h5 class="footer-text">Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus placerat bibendum leo. Maecenas nec bibendum elit, at convallis sem.</h5>
                 <ButtonIcon
                 icon="smiley"
-                href="mail@mail.com">
+                href="mailto:anny.startup@gmail.com">
                 Schreib uns!</ButtonIcon>
             </div>
             <div class="footer-links">   
@@ -15,19 +15,18 @@
                     <NuxtLink class="btn-global" to="/impressum">Impressum</NuxtLink>  
                 </div>    
                 <div class="some">
-                    <NuxtLink class="btn-global" to="">instagram</NuxtLink>  
-                    <NuxtLink class="btn-global" to="">linkedin</NuxtLink>                 
-                    <NuxtLink class="btn-global" to="">mail</NuxtLink> 
+                    <NuxtLink class="btn-global" to="https://www.linkedin.com/company/anny-multifunctional-furniture/about/">LinkedIn</NuxtLink>                 
+                    <NuxtLink class="btn-global" to="mailto:anny.startup@gmail.com">Mail</NuxtLink> 
                 </div>
             </div>
         </div>
         <div id="footer-mobile">
             <div id="contact" class="footer-content">
-                <h1 class="slogan">ännything is<br> possible!</h1>
-                <h5 class="footer-text">Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus placerat bibendum leo. Maecenas nec bibendum elit, at convallis sem.</h5>
+                <h1 class="slogan">ännyone is<br> welcome!</h1>
+                <h5 class="footer-text">Du möchtest eine Ideen einbringen, uns Feedback geben, hast einen spannenden Kontakt für uns oder möchtest erfahren, wie es mit uns weiter geht? Dann melde dich doch einfach bei uns! Getreu unserem Motto: <b class="highlight-text">« ännything is possible. »</b></h5>
                 <ButtonIcon
                 icon="smiley"
-                href="mail@mail.com">
+                href="mailto:anny.startup@gmail.com">
                 Schreib uns!</ButtonIcon>
             </div>
             <div class="footer-links">   
@@ -35,10 +34,9 @@
                     <NuxtLink class="btn-global" to="/datenschutz">Datenschutz</NuxtLink>  
                     <NuxtLink class="btn-global" to="/impressum">Impressum</NuxtLink>  
                 </div>    
-                <div class="some">
-                    <NuxtLink class="btn-global" to="">instagram</NuxtLink>  
-                    <NuxtLink class="btn-global" to="">linkedin</NuxtLink>                 
-                    <NuxtLink class="btn-global" to="">mail</NuxtLink> 
+                <div class="some">  
+                    <NuxtLink class="btn-global" to="https://www.linkedin.com/company/anny-multifunctional-furniture/about/">LinkedIn</NuxtLink>                 
+                    <NuxtLink class="btn-global" to="mailto:anny.startup@gmail.com">Mail</NuxtLink> 
                 </div>
             </div>  
         </div>

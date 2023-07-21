@@ -328,14 +328,14 @@ footer {
         align-items: center;
         background: no-repeat url('/x-footer-mobile.jpg');
         background-size: 100%;
-        height: 900px;
+        height: 840px;
         width: 100vw;
+        justify-content: flex-end;
           .footer-content {
             display: flex;
             flex-direction: column;
-            padding: 120px 0;
             width: 90%;
-            max-width: 1400px;
+            margin: 120px 0 296px 0;
             .footer-text {
               padding: 24px 0 32px 0;
             }
@@ -346,6 +346,7 @@ footer {
             justify-content: space-between;
             align-items: flex-end;
             width: 100%;
+            margin: 24px;
         }
       }
     }
@@ -501,4 +502,15 @@ footer {
   position: absolute;
   left: -32vw;
   top: -36vw;
+  @media screen and (max-width: 600px) {
+    top: -140vw;
+    right: -120vw;
+    img {
+          width: 60%;
+    }
+  }
+}
+
+.highlight-text {
+  color: $darkblue
 }

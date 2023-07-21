@@ -1,5 +1,5 @@
 <script setup>
-    const btn = defineProps(['icon', 'href']);
+    const btn = defineProps(['icon', 'href', 'mail']);
 </script>
 
 <template>

@@ -12,7 +12,7 @@
             alt=""
             year="2023"
             title="änny viral"
-            desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
+            desc="Wir haben es in die Öffentlichkeit geschafft! Unser erster Artikel ist jetzt im Yolo Magazin zu finden."
             bg="red"
             order="timeline-img-first"/>
             <TimelineDot
@@ -21,7 +21,7 @@
             alt=""
             year="2022" 
             title="Produktions-firmen"
-            desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
+            desc="Im Austausch mit Herstellfirmen klügeln wir die genauere Herstellung aus und mit welchen Kosten wir rechnen müssen."
             bg="babyblue"/>
             <TimelineDot
             class="dot3"
@@ -29,7 +29,7 @@
             alt=""
             year="2021"
             title="Testings"
-            desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus "
+            desc="Startschuss für's Testen unserer Prototypen. Seither haben schon 26 Familien und 3 Kindergärten änny gestestet."
             bg="mint"
             order="timeline-img-first"/>
             <TimelineDot
@@ -38,7 +38,7 @@
             alt=""
             year="2020"
             title="Geburtsstunde"
-            desc="Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus"
+            desc="Alles in Handarbeit: Seit 2020 entwickelt Alina das Produkt und baut immer wieder optimierte Prototypen."
             bg="rose"/>
     </div>
 </template>
