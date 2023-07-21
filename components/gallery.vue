@@ -10,7 +10,9 @@
         img="1-eltern.jpg"
         alt="Vater am Schreibtisch verzweifelt, Kinder spielen im Hintergrund"
         title="Überfordert?"
-        text="Eltern kaufen nur einmal und können individuell ergänzen. Das spart Eltern Geld, Zeit und Nerven."
+        text="Eltern sind dafūr verantwortlich, mit welchen Produkten ihr Kind Tag für Tag interagiert.
+Die Auswahl dieser ist einer riesen Herausforderung, da sich sowohl das Interesse, der Geschmack, als auch die Bedürfnisse und Körpergröße ständig ändern. Also wenden sie viel Zeit, Geld und auch Nerven auf um die Optimalen Produkte ausuchen, zu kaufen und auch wieder loszuwerden.
+Mit änny kaufen kaufen Eltern nur einmal und können individuell ergänzen."
         order="img-first"/>
         <div class="scribble-fg scribble1">
             <img src="/scribble-arrow.svg">        
