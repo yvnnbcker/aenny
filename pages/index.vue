@@ -10,7 +10,7 @@ Wer hier Kinder großziehen möchte, findet sich schnell in einem Dilemma zwisch
         <Quote 
         class="quote-section"
         bg="red"
-        text="‹Mein Kind war noch nie so lange am stück beschäftigt!› – Dies ist ein typisches Feedback nach unseren Testings."/>
+        text="‹ Mein Kind war noch nie so lange am Stück beschäftigt! › – Dies ist ein typisches Feedback nach unseren Testings."/>
         <div id="special" class="section">
             <Section 
             class="special-section"
