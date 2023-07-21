@@ -214,6 +214,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: $beige;
+  overflow-x: hidden;
 }
 main {
   display: flex;
@@ -224,6 +225,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 80%;
+    max-width: 1400px;
   }
 }
 
@@ -237,12 +239,12 @@ nav {
   .nav-content {
     z-index: 1005;
     position: fixed;
-    padding: 2%;
+    padding: 24px;
     top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     .nav-left {
       display: flex;
     }
@@ -263,12 +265,13 @@ footer{
   background: no-repeat url('/x-footer.jpg');
   background-size: 100%;
   height: 700px;
-  width: 100%;
+  width: 100vw;
     .footer-content {
       display: flex;
       flex-direction: column;
       padding: 120px 0;
       width: 80%;
+      max-width: 1400px;
       .footer-text {
         max-width: 48%;
         padding: 24px 0 32px 0;
@@ -295,6 +298,7 @@ footer{
   @media screen and (max-width: 1024px) and (min-width: 601px) {
     height: 120vw;
     width: 80%;
+    max-width: 1400px;
   }
   @media screen and (max-width: 600px) {
     height: 200vw;
@@ -315,38 +319,49 @@ footer{
 //ACCENTS
 .rect-left {
   z-index: 999;
+  width: 1800px;
   position: absolute;
 }
 .rect-right {
   z-index: 999;
+  width: 1800px;
   position: absolute;
-  width: 820px;
-  height: 600px;
   right: 0;
 }
 .rect1 {
   z-index: 999;
-  width: 400px;
   height: 600px;
-  left: 0;
+  left: -100vw;
+  @media screen and (min-width: 1800px) {
+    left: -72vw;
+  }
 }
 .rect2 {
   z-index: 999;
-  top: 6%;
-  right: -18%;
+  height: 600px;
+  top: 0vw;
+  right: -64vw;
+  @media screen and (min-width: 1800px) {
+    right: -38vw;
+  }
 }
 .rect3 {
   z-index: 999;
-  height: 840px;
-  top: -56%;
-  right: -18%;
+  height: 820px;
+  top: 8vw;
+  left: -80vw;
+  @media screen and (min-width: 1800px) {
+    left: -56vw;
+  }
 }
 .rect4 {
   z-index: 999;
-  height: 820px;
-  width: 680px;
-  top: 8%;
-  left: -24%;
+  height: 860px;
+  top: -18vw;
+  right: -72vw;
+  @media screen and (min-width: 1800px) {
+    right: -52vw;
+  }
 }
 
 .scribble-fg {
@@ -359,24 +374,28 @@ footer{
 }
 
 .scribble1 {
-  left: -28%;
-  top: 240%;
-  transform: rotate(24deg);
+  left: -34vw;
+  top: 76vw;
+  transform: rotate(26deg);
+  @media screen and (min-width: 1800px) {
+    top: 56vw;
+  }
 }
 .scribble2 {
   z-index: 1002;
   position: absolute;
-  left: -12%;
-  top: -16%;
+  left: -32vw;
+  top: -8vw;
+  transform: rotate(-24deg);
 }
 .scribble3 {
   position: absolute;
   z-index: 1001;
-  right: -12%;
-  top: -120%;
+  right: -24vw;
+  top: -44vw;
 }
 .scribble4 {
   position: absolute;
-  left: -12%;
-  top: -32%;
+  left: -32vw;
+  top: -32vw;
 }

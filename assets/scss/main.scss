@@ -3,6 +3,7 @@
 //MODULES
 ////Header
 header{
+    position: relative;
     .full-img {
         background: no-repeat url('/0-hero-189.png');
         background-size: 100%;
@@ -15,6 +16,7 @@ header{
             align-items: center;
             .hero-text {
                 width: 80%;
+                max-width: 1400px;
                 .hero-title {
                     color: $red;
                     padding-bottom: 24px;
@@ -22,14 +24,18 @@ header{
             }
             .ha-arrow {
                 position: absolute;
-                top: -48%;
-                left: 10%;
+                top: -24vw;
+                left: 10vw;
                 z-index: 1001;
+                @media screen and (min-width: 1800px) {
+                    top: -18vw;
+                    left: 16vw;
+                  }
             }
             .ha-dot {
                 position: absolute;
-                top: 56%;
-                right: -24%;
+                top: 28vw;
+                right: -22vw;
                 z-index: 1001;
             }
         }
@@ -42,6 +48,7 @@ header{
     padding: 120px 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .section-content {
@@ -61,7 +68,7 @@ header{
 }
 ///Text-Image
 .gallery-dot {
-    z-index: 1001;
+    z-index: 1002;
     display: flex;
     flex-direction: row;
     column-gap: 64px;
@@ -83,6 +90,7 @@ header{
 }
 .img-first {
     flex-direction: row-reverse;
+    z-index: 1005;
     .gallery-content {
         h3 {
             padding: 64px 0 16px 0;
@@ -98,7 +106,7 @@ header{
         z-index: 1002;
         .quote-content {
             background-color: $white;
-            width: 860px;
+            max-width: 860px;
             padding: 120px;
             border-radius: 48px;
         }
@@ -123,12 +131,14 @@ header{
     position: relative;
     .special-image {
         z-index: 1004;
-        padding-top: 64px;
         align-self: center;
         margin-top: 64px;
         padding: 64px;
         border-radius: 48px;
         background-color: $white;
+        img {
+            max-width: 800px;
+        }
     }
 }
 
@@ -147,8 +157,8 @@ header{
     }
 }
 .team-section {
+    z-index: 1003;
     width: 400px;
-    position: relative;
 }
 ///Card
 .card-url {
@@ -243,6 +253,7 @@ header{
     flex-direction: column;
     align-self: flex-end;
     margin-right: 80px;
+    z-index: 1003;
 }
 
 

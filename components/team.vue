@@ -3,7 +3,7 @@
         <div class="scribble-fg scribble3">
                 <img src="/scribble-arrowbig.svg">
             </div>
-        <div class="rect-right rect3 babyblue"></div>
+        <div class="rect-right rect4 babyblue"></div>
         <div class="team-content">
             <cardUrl
             url="https://www.linkedin.com/in/alinagaidies"

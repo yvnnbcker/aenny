@@ -14,7 +14,7 @@
             class="special-section"
             title="Innovation"
             text="Unser innovatives Kinderspielzeug definiert das Spielerlebnis neu, indem es multifunktional, langlebig und sicher für Kinder jeden Alters ist. Dank seines mitwachsenden Designs bietet es eine langfristige Begleitung in der Entwicklung der Kinder und sorgt für grenzenlosen Spaß und Kreativität bei gleichzeitiger Sicherheit." />
-            <div class="rect-left rect4 mint"></div>
+            <div class="rect-left rect3 mint"></div>
             <div class="scribble-left scribble2">
                 <img src="/scribble-dot2.svg">
             </div>
