@@ -429,7 +429,7 @@ footer {
     left: -56vw;
   }
   @media screen and (max-width: 600px) {
-    height: 400px;
+    height: 560px;
     top: 8vw;
   }
 }
@@ -444,6 +444,7 @@ footer {
     top: -16vw;
   }
   @media screen and (max-width: 600px) {
+    height: 1600px;
     top: -56vw;
   }
 }
@@ -506,7 +507,7 @@ footer {
   left: -32vw;
   top: -36vw;
   @media screen and (max-width: 600px) {
-    top: -140vw;
+    top: -80vw;
     right: -120vw;
     img {
           width: 60%;
