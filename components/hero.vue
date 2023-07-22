@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header id="start">
         <div class="hero-desktop">
             <div class="hero-content">
                 <div class="hero-text">

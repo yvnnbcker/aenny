@@ -286,6 +286,11 @@ nav {
   background-color: $white;
   transition: .2s ease-in-out;
 }
+.nav-small {
+  .nav-right {
+    display: none;
+  }
+}
 
 footer {
     #footer-mobile {

@@ -1,9 +1,8 @@
 <template>
     <div>
-        <Navigation />  
-        <Hero/>  
-        <main>
-                    <slot />    
+        <NavSmall/>  
+        <main>                
+            <slot />    
         </main>
         <Footer />
     </div>
@@ -15,3 +14,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 </style>
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  window.scrollTo(0, 0)
+})
+</script>
