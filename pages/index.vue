@@ -9,7 +9,7 @@
         <Quote 
         class="quote-section"
         bg="red"
-        text="‹ Mein Kind war noch nie so lange am Stück beschäftigt! › – Dies ist ein typisches Feedback nach unseren Testings."/>
+        text="due to änny ännything is possible. ännyone can create ännything in ännytime."/>
         <div id="special" class="section">
             <Section 
             class="special-section"
