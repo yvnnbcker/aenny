@@ -257,7 +257,7 @@ header{
 }
 .team-section {
     z-index: 1003;
-    width: 440px;
+    max-width: 440px;
 }
 ///Card
 .card-url {
@@ -408,7 +408,7 @@ header{
     }
 }
 .timeline-section, .special-section {
-    width: 440px;
+    max-width: 440px;
     display: flex;
     flex-direction: column;
     align-self: flex-end;
