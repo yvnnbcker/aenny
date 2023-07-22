@@ -21,7 +21,7 @@
             alt=""
             year="2022" 
             title="Produktions-firmen"
-            desc="Im Austausch mit Herstellfirmen klügeln wir die genauere Herstellung aus und mit welchen Kosten wir rechnen müssen."
+            desc="Im Austausch mit Fertigungsbetrieben tüfteln wir die Herstellungsstrategien aus und stellen Kostenpläne auf."
             bg="babyblue"/>
             <TimelineDot
             class="dot3"

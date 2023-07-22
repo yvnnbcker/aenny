@@ -14,7 +14,7 @@
             <Section 
             class="special-section"
             title="Innovation"
-            text="Kinderprodukte sind meistens sehr spezifisch, auf die Nutzung in einer begrenzten Lebensphase ausgelegt und nach einer Weile durchgespielt. Unser innovatives Kinderspielzeug definiert das Spielerlebnis neu, indem es multifunktional, langlebig und sicher für Kinder jeden Alters ist. Dank seines mitwachsenden Designs bietet es eine langfristige Begleitung in der Entwicklung der Kinder und sorgt für grenzenlosen Spaß und Kreativität." />
+            text="Kinderprodukte sind meistens sehr spezifisch in ihrer Funktion, auf die Nutzung in einer begrenzten Lebensphase ausgelegt und nach einer Weile durchgespielt. Unser innovatives Kinderspielmöbel definiert das Spielerlebnis neu, indem es multifunktional, langlebig und sicher für Kinder jeden Alters ist. Dank seines mitwachsenden Designs bietet es eine langfristige Begleitung in der Entwicklung der Kinder und sorgt für grenzenlosen Spaß und Kreativität." />
             <div class="rect-left rect3 mint"></div>
             <div class="scribble-left scribble2">
                 <img src="/scribble-dot2.svg">
@@ -27,14 +27,14 @@
             <Section 
             class="team-section"
             title="änny Team"
-            text="Hi, wir sind Marlene, Lena und Alina! &#13; &#13; Wir repräsentieren das Team von änny und auf dem Weg zur Gründung. Das änny Team ist aber noch viel größer! 21 Personen waren schon an unserem Projekt beteiligt und haben sich eingebracht. Dafür sagen wir Danke!" />
+            text="Hi, wir sind Marlene, Lena und Alina! &#13; &#13; Wir sind das Team von änny und auf dem Weg zur Gründung. Das änny Team ist aber noch viel größer! 21 Personen waren schon an unserem Projekt beteiligt und haben sich eingebracht. Dafür sagen wir Danke!" />
             <Team />
         </div>
         <div id="history" class="section">
             <Section 
             class="timeline-section"
             title="änny Geschichte"
-            text="Wir entwickeln änny jetzt schon seit 3 Jahren, haben viele tolle Menschen dabei gehabt und auch einiges erreicht. Sieh selbst!" />
+            text="Wir entwickeln änny jetzt schon seit 3 Jahren. Auf unserem Weg haben uns viele verschiedene Menschen unterstützt. Gemeinsam haben wir einiges erreicht. Sieh selbst!" />
             <Timeline/>
         </div>
     </div>
