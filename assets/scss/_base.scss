@@ -297,7 +297,7 @@ footer {
       align-items: center;
       background: no-repeat url('/x-footer.jpg');
       background-size: 100%;
-      height: 700px;
+      height: 720px;
       width: 100vw;
         .footer-content {
           display: flex;
@@ -311,11 +311,13 @@ footer {
           }
         }
         .footer-links {
+          background-color: $white;
+          padding: 24px;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
           align-items: flex-end;
-          width: 96%;
+          width:100%;
       }
     }
     @media screen and (max-width: 600px) {
@@ -396,7 +398,7 @@ footer {
 }
 .rect1 {
   z-index: 999;
-  height: 600px;
+  height: 540px;
   left: -100vw;
   @media screen and (min-width: 1800px) {
     left: -72vw;
@@ -408,8 +410,7 @@ footer {
 }
 .rect2 {
   z-index: 999;
-  height: 400px;
-  top: 0vw;
+  height: 560px;
   right: -64vw;
   @media screen and (min-width: 1800px) {
     right: -38vw;
@@ -421,13 +422,14 @@ footer {
 .rect3 {
   z-index: 999;
   height: 820px;
-  top: 8vw;
+  top: 4vw;
   left: -80vw;
   @media screen and (min-width: 1800px) {
     left: -56vw;
   }
   @media screen and (max-width: 600px) {
     height: 400px;
+    top: 8vw;
   }
 }
 .rect4 {

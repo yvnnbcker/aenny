@@ -2,8 +2,8 @@
         <footer>
             <div id="footer-desktop">
             <div id="contact" class="footer-content">
-                <h1 class="slogan">ännything is<br> possible!</h1>
-                <h5 class="footer-text">Vision Quote: Sed mi ex, luctus sed sem vel, cursus pretium lorem. Phasellus placerat bibendum leo. Maecenas nec bibendum elit, at convallis sem.</h5>
+                <h1 class="slogan">ännyone is<br> welcome!</h1>
+                <h5 class="footer-text">Du möchtest eine Ideen einbringen, uns Feedback geben, hast einen spannenden Kontakt für uns oder möchtest erfahren, wie es mit uns weiter geht? Dann melde dich doch einfach bei uns! Getreu unserem Motto: <br ><b class="highlight-text">« ännything is possible. »</b></h5>
                 <ButtonIcon
                 icon="smiley"
                 href="mailto:anny.startup@gmail.com">

@@ -25,6 +25,10 @@ header{
                     color: $red;
                     padding-bottom: 24px;
                 }
+                p {
+                    padding-top: 8px;
+                    width: 480px;
+                }
             }
             .ha-arrow {
                 position: absolute;
@@ -110,7 +114,7 @@ header{
         padding-bottom: 16px;
     }
     .section-text {
-        max-width: 400px;
+        max-width: 440px;
     }
 }
 
@@ -253,7 +257,7 @@ header{
 }
 .team-section {
     z-index: 1003;
-    width: 400px;
+    width: 440px;
 }
 ///Card
 .card-url {
@@ -404,11 +408,11 @@ header{
     }
 }
 .timeline-section, .special-section {
-    width: 400px;
+    width: 440px;
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    margin-right: 80px;
+    margin-right: 48px;
     z-index: 1003;
     position: relative;
     @media screen and (max-width: 600px) {
