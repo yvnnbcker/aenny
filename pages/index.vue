@@ -3,8 +3,7 @@
         <div id="problems" class="section">
             <Section 
             title="Unser Konzept"
-            text="Unsere westliche Welt wird immer schneller, komplexer und überladener.
-Wer hier Kinder großziehen möchte, findet sich schnell in einem Dilemma zwischen extremen Konsumverhalten und dem Wunsch, seinem Kind möglichst alles zu bieten." />
+            text="Unsere Vision ist es, Nachhaltigkeit für Eltern einfach und erschwinglich zu machen und dabei den Kindern die Möglichkeit zu bieten, sich eigenständig durch alle Entwicklungsstufen ihres Lebens zu entfalten." />
             <Gallery />
         </div>
         <Quote 
