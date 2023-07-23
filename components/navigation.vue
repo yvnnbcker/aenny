@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <div class="nav-content">
+        <div id="nav-content">
             <div class="nav-left">
                 <a id="logo" class="btn-global btn-nav" href="#start">
                     <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">

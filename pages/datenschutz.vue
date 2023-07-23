@@ -3,7 +3,7 @@
       <div class="legal-content">
         <div class="privacy-policy">
 
-            <h1>Privacy Policy (Datenschutz)</h1>
+            <h1>Privacy Policy <br >(Datenschutz)</h1>
             <br ><br ><h2>Preamble</h2>
             <br >Article 12 of the EU General Data Protection Regulation (DSGVO for short) requires that I explain to you "in a precise, transparent, understandable and easily accessible form [and] in clear and simple language" what is happening here on this website.
             <br ><br ><br >

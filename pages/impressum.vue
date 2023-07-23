@@ -2,7 +2,7 @@
     <div class="legal">
         <div class="legal-content">
             <div class="legal-representator">
-                <h1>Legal Notice (Impressum)</h1>
+                <h1>Legal Notice <br >(Impressum)</h1>
                 <br >
                     Alina Gaidies
                 <br > Kapuzinergasse 3
@@ -14,7 +14,7 @@
                 <br >
                 <br ><b>Contact:</b>
                 <br >Phone: +49 176 81336606
-                <br >E–Mail: anny.startup@gmail.com
+                <br >E–Mail: <a href="mailto:anny.startup@gmail.com">anny.startup@gmail.com</a>
                 <br ><br ><br >
             </div>
             <div class="legal-content">
