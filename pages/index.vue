@@ -9,7 +9,7 @@
         <Quote 
         class="quote-section"
         bg="red"
-        text="due to änny ännything is possible. ännyone can create ännything in ännytime."/>
+        text="due to änny ännything is possible. ännyone can create ännything at änny time."/>
         <div id="special" class="section">
             <Section 
             class="special-section"
@@ -27,7 +27,7 @@
             <Section 
             class="team-section"
             title="änny Team"
-            text="Hi, wir sind Marlene, Lena und Alina! &#13; &#13; Wir sind das Team von änny und auf dem Weg zur Gründung. Das änny Team ist aber noch viel größer! 21 Personen waren schon an unserem Projekt beteiligt und haben sich eingebracht. Dafür sagen wir Danke!" />
+            text="Hi, wir sind Alina, Marlene und Lena! &#13; &#13; Wir sind das Team von änny und auf dem Weg zur Gründung. Das änny Team ist aber noch viel größer! 21 Personen waren schon an unserem Projekt beteiligt und haben sich eingebracht. Dafür sagen wir Danke!" />
             <Team />
         </div>
         <div id="history" class="section">

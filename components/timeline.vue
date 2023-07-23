@@ -29,7 +29,7 @@
             alt=""
             year="2021"
             title="Testings"
-            desc="Startschuss für's Testen unserer Prototypen. Seither haben schon 26 Familien und 3 Kindergärten änny gestestet."
+            desc="Startschuss zum Testen unserer Prototypen. Seither haben schon 26 Familien und 3 Kindergärten änny getestet."
             bg="mint"
             order="timeline-img-first"/>
             <TimelineDot

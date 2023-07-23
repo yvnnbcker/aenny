@@ -7,7 +7,7 @@
         title="Überreizt?"
         text="Die Nutzung von vielen verschiedenen Kinderspielzeugen kann zu Überreizung 
         und kürzerer Aufmerksamkeitsspanne bei Kindern führen. Mit änny bekommen Kinder die Grundlage, 
-        um alles was sie wollen selbstständig umzusetzten und spielerisch zu lernen. 
+        um alles was sie wollen selbstständig umzusetzen und spielerisch zu lernen. 
         Dies fördert den Entdeckergeist und das Vorstellungsvermögen."/>
         <TextImage
         img="1-eltern.jpg"
