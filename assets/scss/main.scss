@@ -374,8 +374,8 @@ header{
         top: -12vw;
         right: 16vw;
         @media screen and (min-width: 1800px) {
-            top: -20vw;
-            right: 32vw;
+            top: -24vw;
+            right: 31vw;
         }
         @media screen and (max-width: 600px) {
             top: 104vw;
@@ -387,7 +387,7 @@ header{
         top: 2vw;
         left: -4vw;
         @media screen and (min-width: 1800px) {
-            top: -2vw;
+            top: -4vw;
         }
         @media screen and (max-width: 600px) {
             top: 200vw;
@@ -399,7 +399,7 @@ header{
         top: 28vw;
         right: 20vw;
         @media screen and (min-width: 1800px) {
-            top: 16vw;
+            top: 10vw;
             right: 36vw;
         }
         @media screen and (max-width: 600px) {
@@ -413,12 +413,10 @@ header{
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    margin-right: 48px;
     z-index: 1003;
     position: relative;
     @media screen and (max-width: 600px) {
         width: 100%;
-        margin-right: 0;
       }
 }
 
