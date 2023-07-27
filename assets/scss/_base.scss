@@ -344,9 +344,9 @@ footer {
     @media screen and (max-width: 1024px) and (min-width: 601px) {
       #footer-desktop {  
         min-height: fit-content;
-        max-height: fit-content;
+        background-size: 120%;
         .footer-content {
-          padding: 64px 0;
+          padding: 64px 0 16px 0;
           max-width: fit-content;
           width: 90%;
           .footer-text {
