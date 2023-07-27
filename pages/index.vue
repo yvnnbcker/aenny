@@ -23,7 +23,7 @@
                 <img src="/03-special.jpg">
             </div>
         </div>
-        <div id="we" class="section">
+        <div id="team" class="section">
             <Section 
             class="team-section"
             title="änny Team"
