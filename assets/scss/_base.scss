@@ -381,11 +381,14 @@ footer {
           .footer-links {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: flex-end;
             width: 100%;
             padding: 24px 0;
             background-color: $white;
+            a {
+              margin: 0 16px;
+            }
         }
       }
     }
@@ -456,7 +459,7 @@ footer {
     right: -1400px;
   }
   @media screen and (max-width: 600px) {
-    height: 380px;
+    height: 340px;
   }
 }
 .rect3 {

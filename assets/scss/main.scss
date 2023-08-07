@@ -113,6 +113,12 @@ header{
                             color: $red;
                             padding-bottom: 16px;
                         }
+                        p {
+                            text-shadow: 2px  2px 2px #E9EAEA,
+                            2px -2px 2px #E9EAEA,
+                            -2px  2px 2px #E9EAEA,
+                            -2px -2px 2px #E9EAEA;
+                        }
                 }
                 .ha-arrow {
                     position: absolute;
