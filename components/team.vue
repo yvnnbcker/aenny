@@ -14,7 +14,7 @@
             desc=""/>
             <cardUrl
             url="mailto:anny.startup@gmail.com"
-            img="/marlene.png"
+            img="/placeholder.png"
             alt="Platzhalterbild"
             title="…und vielleicht du?"
             task="Wirtschaft, Marketing, Logistik oder UX"
