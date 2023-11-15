@@ -13,19 +13,12 @@
             task="Product Design & UX"
             desc=""/>
             <cardUrl
-            url="https://www.linkedin.com/in/marlene-huber-064757174/"
+            url="mailto:anny.startup@gmail.com"
             img="/marlene.png"
-            alt="junge, rothaarige Frau namens Marlene Huber"
-            title="Marlene Huber"
-            task="Customer Journey & Business Administrations"
+            alt="Platzhalterbild"
+            title="…und vielleicht du?"
+            task="Wirtschaft, Marketing, Logistik oder UX"
             desc=""/>
-            <cardUrl
-            url="https://www.linkedin.com/in/lenameisinger/"
-            img="/lena.jpg"
-            alt="junge, dunkelblonde Frau namens Lena Meisinger"
-            title="Lena Meisinger"
-            task="Nachhaltigkeit & Prozesse"
-            desc="" />
         </div>
     </div>
 </template>

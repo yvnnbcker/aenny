@@ -5,8 +5,8 @@
                 <h1>Legal Notice <br >(Impressum)</h1>
                 <br >
                     Alina Gaidies
-                <br > Kapuzinergasse 3
-                <br > 73525 Schwäbisch Gmünd
+                <br > Pferseerstraße 19
+                <br > 86150 Augsburg
                 <br > Germany
                 <br ><br >
                 <b>Represented by:</b>
